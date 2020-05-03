@@ -24,6 +24,18 @@
 
 3. Visit [`localhost:4000`](http://localhost:4000) from your browser.
 
+    /light
+    
+    /license
+    
+    /sales-dashboard
+    
+    /search
+    
+    /flights
+    
+    /autocomplete
+
 ## App Generation
 
 This app was generated using:
