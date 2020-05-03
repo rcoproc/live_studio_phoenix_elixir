@@ -2,7 +2,7 @@
 
 [Pragmatic Course](https://online.pragmaticstudio.com/courses/liveview)
 
-| Timeline page  | Page 2 | Page 3 | Page 4 |
+| Page Lights  | Page License | Page Search with Autocomplete | Page Flights |
 |---| ---| ---| ---|
 | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen1.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen2.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen3.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen4.png?raw=true) |
 
