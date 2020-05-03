@@ -1,10 +1,10 @@
-# LiveView Studio
+# LiveView Studio (Phoenix Live View Course by Pragmatic)
 
 [Pragmatic Course](https://online.pragmaticstudio.com/courses/liveview)
 
-| Timeline page  | Post form page |
-|---| ---|
-| ![](https://github.com/rcoproc/chirp_twitter_elixir/blob/master/images/screen1.png?raw=true) | ![](https://github.com/rcoproc/chirp_twitter_elixir/blob/master/images/screen2.png?raw=true) |
+| Timeline page  | Page 2 | Page 3 | Page 4 |
+|---| ---| ---| ---|
+| ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen1.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen2.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen3.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen4.png?raw=true) |
 
 
 
