@@ -10,7 +10,7 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :live_view_studio, LiveViewStudioWeb.Endpoint,
-  url: [host: "postgres-free-tier-1.gigalixir.co", port: 80],
+  url: [host: "postgres-free-tier-1.gigalixir.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Configure your database
