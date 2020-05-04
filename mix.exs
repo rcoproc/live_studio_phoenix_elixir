@@ -49,7 +49,8 @@ defmodule LiveViewStudio.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:faker, "~> 0.13"},
       {:number, "~> 1.0"},
-      {:timex, "~> 3.5"}
+      {:timex, "~> 3.5"},
+      {:distillery, "~> 1.5", runtime: false}
     ]
   end
 
