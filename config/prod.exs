@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 config :live_view_studio, LiveViewStudioWeb.Endpoint,
   url: [host: "postgres-free-tier-1.gigalixir.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  cache_static_manifest: "priv/static/cache_manifest.json",
   server: true,
   secret_key_base: "{SECRET_KEY_BASE}"
 
