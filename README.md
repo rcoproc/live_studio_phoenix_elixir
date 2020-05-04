@@ -2,7 +2,17 @@
 
 [Pragmatic Course](https://online.pragmaticstudio.com/courses/liveview)
 
-[Site Demo](https://positive-worthwhile-puma.gigalixirapp.com/light)
+[Gigalixir Site Demo1](https://positive-worthwhile-puma.gigalixirapp.com/light)
+
+[Gigalixir Site Demo2](https://positive-worthwhile-puma.gigalixirapp.com/license)
+
+[Gigalixir Site Demo3](https://positive-worthwhile-puma.gigalixirapp.com/autocomplete)
+
+[Gigalixir Site Demo4](https://positive-worthwhile-puma.gigalixirapp.com/search)
+
+[Gigalixir Site Demo5](https://positive-worthwhile-puma.gigalixirapp.com/sales-dashboard)
+
+[Gigalixir Site Demo6](https://positive-worthwhile-puma.gigalixirapp.com/flights)
 
 | Page Lights  | Page License | Page Sales Dashboard | Page Flights | Page Autocomplete |
 |---| ---| ---| ---| ---|
