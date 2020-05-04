@@ -2,6 +2,8 @@
 
 [Pragmatic Course](https://online.pragmaticstudio.com/courses/liveview)
 
+[Site Demo](https://positive-worthwhile-puma.gigalixirapp.com/light)
+
 | Page Lights  | Page License | Page Sales Dashboard | Page Flights | Page Autocomplete |
 |---| ---| ---| ---| ---|
 | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen1.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen2.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen3.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen4.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen5.png?raw=true) |
