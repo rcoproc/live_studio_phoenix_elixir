@@ -50,7 +50,7 @@ defmodule LiveViewStudio.MixProject do
       {:faker, "~> 0.13"},
       {:number, "~> 1.0"},
       {:timex, "~> 3.5"},
-      {:distillery, "~> 1.5", runtime: false}
+      {:distillery, "~> 2.1"}
     ]
   end
 
