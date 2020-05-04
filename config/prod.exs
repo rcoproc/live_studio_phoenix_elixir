@@ -13,6 +13,14 @@ config :live_view_studio, LiveViewStudioWeb.Endpoint,
   url: [host: "postgres-free-tier-1.gigalixir.co", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
+# Configure your database
+config :live_view_studio, LiveViewStudio.Repo,
+  url: "${DATABASE_URL}",
+  show_sensitive_data_on_connection_error: true,
+  database: "",
+  ssl: true, 
+  pool_size: 1
+
 # Do not print debug messages in production
 config :logger, level: :info
 
