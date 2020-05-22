@@ -12,7 +12,7 @@ database_url =
     """
 
 config :live_view_studio, LiveViewStudio.Repo,
-  # ssl: true,
+  ssl: true,
   url: database_url,
   show_sensitive_data_on_connection_error: true,
   pool_size: String.to_integer(System.get_env("POOL_SIZE") || "2")
