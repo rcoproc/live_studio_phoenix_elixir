@@ -7,7 +7,7 @@ defmodule LiveViewStudio.ReleaseTasks do
     :ecto_sql # If using Ecto 3.0 or higher
   ]
 
-  @repos LiveViewStudio.Repo
+  @repos Application.get_env(:live_view_studio, :ecto_repos, [])
 
   def migrate(_argv) do
     start_services()
