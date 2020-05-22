@@ -11,6 +11,11 @@ database_url =
     For example: ecto://USER:PASS@HOST/DATABASE
     """
 
+database_url =
+  System.get_env("DATABASE_URL") ||
+    raise """
+    """
+
 config :live_view_studio, LiveViewStudio.Repo,
   ssl: true,
   url: database_url,
