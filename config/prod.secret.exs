@@ -2,19 +2,20 @@
 # from environment variables. You can also hardcode secrets,
 # although such is generally not recommended and you have to
 # remember to add this file to your .gitignore.
-#use Mix.Config
+use Mix.Config
 
-#database_url =
-#  System.get_env("DATABASE_URL") ||
-#    raise """
-#    environment variable DATABASE_URL is missing.
-#    For example: ecto://USER:PASS@HOST/DATABASE
-#    """
+database_url =
+  System.get_env("DATABASE_URL") ||
+    raise """
+    environment variable DATABASE_URL is missing.
+    For example: ecto://USER:PASS@HOST/DATABASE
+    """
 
-#config :live_view_studio, LiveViewStudio.Repo,
-#  # ssl: true,
-#  url: database_url,
-#  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "2")
+config :live_view_studio, LiveViewStudio.Repo,
+  # ssl: true,
+  url: database_url,
+  show_sensitive_data_on_connection_error: true,
+  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "2")
 
 #secret_key_base =
 #  System.get_env("SECRET_KEY_BASE") ||
