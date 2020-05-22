@@ -52,7 +52,7 @@ release :live_view_studio do
     :runtime_tools
   ]
   set commands: [
-    "migrate": "rel/commands/migrate.sh"
+    "migrate": "rel/commands/migrate.sh",
     "seed": "rel/commands/seed.sh"
   ]
 end
