@@ -79,7 +79,7 @@ defmodule LiveViewStudioWeb.SalesDashboardLive do
       new_orders: Sales.new_orders(),
       sales_amount: Sales.sales_amount(),
       satisfaction: Sales.satisfaction(),
-      last_updated_at: :calendar.local_time(),
+      last_updated_at: :calendar.local_time()
     )
   end
 
