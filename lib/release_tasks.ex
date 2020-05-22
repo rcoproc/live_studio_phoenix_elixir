@@ -22,7 +22,7 @@ defmodule LiveViewStudio.ReleaseTasks do
 
     # run_migrations()
 
-    run_seeds()
+    run_seeds_for(:live_view_studio )
 
     stop_services()
   end
@@ -59,9 +59,10 @@ defmodule LiveViewStudio.ReleaseTasks do
     Enum.each(@repos, &run_seeds_for/1)
   end
 
-  defp run_seeds_for(repo) do
+  defp run_seeds_for(app) do
     # Run the seed script if it exists
-    seed_script = priv_path_for(repo, "seeds.exs")
+    # seed_script = priv_path_for(repo, "seeds.exs")
+    seed_script = Path.join(["#{:code.priv_dir(app)}", "repo", "seeds.exs"])
 
     if File.exists?(seed_script) do
       IO.puts("Running seed script..")
