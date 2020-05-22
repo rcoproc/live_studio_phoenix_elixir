@@ -10,6 +10,10 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :live_view_studio, LiveViewStudioWeb.Endpoint,
+  http: [
+    port: String.to_integer(System.get_env("PORT") || "4000"),
+    transport_options: [socket_opts: [:inet6]]
+  ],
   url: [host: "${APP_NAME}.gigalixirapp.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json",
   server: true,
@@ -29,7 +33,7 @@ config :live_view_studio, LiveViewStudio.Repo,
   url: database_url,
   show_sensitive_data_on_connection_error: true,
   ssl: true, 
-  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "2")
+  pool_size: 2
 
 # Do not print debug messages in production
 config :logger, level: :info
