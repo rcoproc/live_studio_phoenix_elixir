@@ -21,19 +21,19 @@ config :live_view_studio, LiveViewStudioWeb.Endpoint,
   secret_key_base: "{SECRET_KEY_BASE}"
 
  
-database_url =
-  System.get_env("DATABASE_URL") ||
-    raise """
-    environment variable DATABASE_URL is missing.
-    For example: ecto://USER:PASS@HOST/DATABASE
-    """
+#database_url =
+#  System.get_env("DATABASE_URL") ||
+#    raise """
+#    environment variable DATABASE_URL is missing.
+#    For example: ecto://USER:PASS@HOST/DATABASE
+#    """
 
-#Configure your database
-config :live_view_studio, LiveViewStudio.Repo,
-  url: database_url,
-  show_sensitive_data_on_connection_error: true,
-  ssl: true, 
-  pool_size: 2
+##Configure your database
+#config :live_view_studio, LiveViewStudio.Repo,
+#  url: database_url,
+#  show_sensitive_data_on_connection_error: true,
+#  ssl: true, 
+#  pool_size: 2
 
 # Do not print debug messages in production
 config :logger, level: :info
