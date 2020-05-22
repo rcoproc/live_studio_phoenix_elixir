@@ -14,6 +14,8 @@
 
 [Gigalixir Site Demo6 - Flights](https://positive-worthwhile-puma.gigalixirapp.com/flights)
 
+[Gigalixir Site Demo6 - Flights](https://positive-worthwhile-puma.gigalixirapp.com/filter)
+
 | Page Lights  | Page License | Page Sales Dashboard | Page Flights | Page Autocomplete | Filters |
 |---| ---| ---| ---| ---| ---|
 | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen1.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen2.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen3.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen4.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen5.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen6.png?raw=true) |
