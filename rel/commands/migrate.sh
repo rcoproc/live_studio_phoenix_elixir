@@ -1,3 +1,3 @@
 #!/bin/sh
 
-bin/live_view_studio command Elixir.LiveViewStudio.ReleaseTasks seed
+release_ctl eval --mfa "LiveViewStudio.ReleaseTasks.migrate/1" --argv -- "$@"

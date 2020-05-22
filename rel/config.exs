@@ -53,6 +53,7 @@ release :live_view_studio do
   ]
   set commands: [
     "migrate": "rel/commands/migrate.sh"
+    "seed": "rel/commands/seed.sh"
   ]
 end
 
