@@ -20,7 +20,7 @@ defmodule LiveViewStudio.ReleaseTasks do
   def seed(_argv) do
     start_services()
 
-    run_migrations()
+    # run_migrations()
 
     run_seeds()
 
