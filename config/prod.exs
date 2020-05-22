@@ -28,7 +28,7 @@ config :live_view_studio, LiveViewStudio.Repo,
   url: database_url,
   show_sensitive_data_on_connection_error: true,
   ssl: true, 
-  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10")
+  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "1")
 
 # Do not print debug messages in production
 config :logger, level: :info
