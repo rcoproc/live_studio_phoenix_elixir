@@ -39,6 +39,10 @@
       <%= live_redirect "Paginate Vehicles",
         to: Routes.live_path(@socket, LiveViewStudioWeb.VehiclesLive) %>
     </li>
+    <li>
+      <%= live_redirect "Paginate with Sort",
+        to: Routes.live_path(@socket, LiveViewStudioWeb.SortLive) %>
+    </li>
   </ul>
 
   <p></p>
