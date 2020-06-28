@@ -16,6 +16,14 @@
 
 [Gigalixir Site Demo7 - Filter](https://positive-worthwhile-puma.gigalixirapp.com/filter)
 
+[Gigalixir Site Demo8 - Servers](https://positive-worthwhile-puma.gigalixirapp.com/servers)
+
+[Gigalixir Site Demo9 - Paginate Bank Donations](https://positive-worthwhile-puma.gigalixirapp.com/paginate)
+
+[Gigalixir Site Demo10 - Paginate Vehicles](https://positive-worthwhile-puma.gigalixirapp.com/vehicles)
+
+[Gigalixir Site Demo11 - Paginate With Sort](https://positive-worthwhile-puma.gigalixirapp.com/sort
+
 | Page Lights  | Page License | Page Sales Dashboard | Page Flights | Page Autocomplete | Filters |
 |---| ---| ---| ---| ---| ---|
 | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/Screen1.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen2.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen3.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen4.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen5.png?raw=true) | ![](https://github.com/rcoproc/live_studio_phoenix_elixir/blob/master/screens/screen6.png?raw=true) |
@@ -48,6 +56,28 @@
     /flights
     
     /autocomplete
+
+    /servers
+
+    /paginate
+
+    /vehicles
+
+    /sort
+
+4. Deploy to Gigalixir
+
+    git push gigalixir master
+
+5. Run Gigalixir migrations
+
+    gigalixir ps:migrate
+
+6. Run Gigalixir Destilary seeds    
+
+    $>gigalixir ps:ssh
+
+    gigalixirapp:remote>bin/live_view_studio seed
 
 ## App Generation
 
