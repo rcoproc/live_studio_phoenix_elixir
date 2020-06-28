@@ -14,7 +14,7 @@
 
 [Gigalixir Site Demo6 - Flights](https://positive-worthwhile-puma.gigalixirapp.com/flights)
 
-[Gigalixir Site Demo6 - Flights](https://positive-worthwhile-puma.gigalixirapp.com/filter)
+[Gigalixir Site Demo7 - Filter](https://positive-worthwhile-puma.gigalixirapp.com/filter)
 
 | Page Lights  | Page License | Page Sales Dashboard | Page Flights | Page Autocomplete | Filters |
 |---| ---| ---| ---| ---| ---|
