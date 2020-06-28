@@ -2,6 +2,39 @@
   <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
   <p>Peace-of-mind from prototype to production</p>
 
+  <ul class="examples">
+    <li>
+      <%= live_redirect "Light",
+          to: Routes.live_path(@socket, LiveViewStudioWeb.LightLive) %>
+    </li>
+    <li>
+      <%= live_redirect "Team License",
+          to: Routes.live_path(@socket, LiveViewStudioWeb.LicenseLive) %>
+    </li>
+    <li>
+      <%= live_redirect "Sales Dashboard",
+        to: Routes.live_path(@socket, LiveViewStudioWeb.SalesDashboardLive) %>
+    </li>
+    <li>
+      <%= live_redirect "Search",
+        to: Routes.live_path(@socket, LiveViewStudioWeb.SearchLive) %>
+    </li>
+    <li>
+      <%= live_redirect "Autocomplete",
+        to: Routes.live_path(@socket, LiveViewStudioWeb.AutocompleteLive) %>
+    </li>
+    <li>
+      <%= live_redirect "Filter",
+        to: Routes.live_path(@socket, LiveViewStudioWeb.FilterLive) %>
+    </li>
+    <li>
+      <%= live_redirect "Servers",
+        to: Routes.live_path(@socket, LiveViewStudioWeb.ServersLive) %>
+    </li>
+  </ul>
+
+  <p></p>
+
   <form phx-change="suggest" phx-submit="search">
     <input type="text" name="q" value="<%= @query %>" placeholder="Live dependency search" list="results" autocomplete="off"/>
     <datalist id="results">

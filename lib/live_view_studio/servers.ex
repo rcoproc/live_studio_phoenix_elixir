@@ -37,6 +37,8 @@ defmodule LiveViewStudio.Servers do
   """
   def get_server!(id), do: Repo.get!(Server, id)
 
+  def get_server_by_name(name), do: Repo.get_by(Server, name: name)
+
   @doc """
   Creates a server.
 
