@@ -22,7 +22,7 @@
 
 [Gigalixir Site Demo10 - Paginate Vehicles](https://positive-worthwhile-puma.gigalixirapp.com/vehicles)
 
-[Gigalixir Site Demo11 - Paginate With Sort](https://positive-worthwhile-puma.gigalixirapp.com/sort
+[Gigalixir Site Demo11 - Paginate With Sort](https://positive-worthwhile-puma.gigalixirapp.com/sort)
 
 | Page Lights  | Page License | Page Sales Dashboard | Page Flights | Page Autocomplete | Filters |
 |---| ---| ---| ---| ---| ---|
