@@ -13,7 +13,7 @@ config :live_view_studio, LiveViewStudioWeb.Endpoint,
   url: [host: "positive-worthwhile-puma-55fbfc55d-jrgh2.gigalixirapp.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json",
   server: true,
-  check_origin: ["//localhost", "//positive-worthwhile-puma.gigalixirapp.com", "//elixir.vendlly.com"]
+  check_origin: ["//localhost", "//positive-worthwhile-puma.gigalixirapp.com", "//elixir.vendlly.com"],
   secret_key_base: "{SECRET_KEY_BASE}"
 
 # Configure your database
