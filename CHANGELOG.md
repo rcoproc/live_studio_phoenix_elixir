@@ -1,4 +1,4 @@
 
-## 17-08-2020
+## 11-09-2020
 
 * Initial changelog to update Gigalixir Deploy
